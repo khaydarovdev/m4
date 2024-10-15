@@ -71,6 +71,7 @@ export default {};
 	border: none;
 	font-size: 17px;
 	transition: all 0.4s;
+	cursor: pointer;
 }
 .abtbtn:hover {
 	color: #eba707;
