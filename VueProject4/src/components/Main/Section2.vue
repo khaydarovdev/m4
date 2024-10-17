@@ -70,7 +70,7 @@ export default {};
 <style scoped>
 .sec2_full {
 	width: 100%;
-	height: 50vh;
+	height: 55vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
