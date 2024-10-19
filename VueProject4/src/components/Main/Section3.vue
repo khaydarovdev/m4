@@ -4,13 +4,15 @@
 			<h1>Мы предлагаем</h1>
 			<div class="ad-grid">
 				<!-- Signboards -->
-				<div class="ad-box signboards">
-					<i class="bx bxs-store"></i>
-					<div class="ad-content">
-						<h3>Вывески</h3>
-						<p>от 5 000 руб</p>
+				<router-link :to="{name: 'production'}">
+					<div class="ad-box signboards">
+						<i class="bx bxs-store"></i>
+						<div class="ad-content">
+							<h3>Вывески</h3>
+							<p>от 5 000 руб</p>
+						</div>
 					</div>
-				</div>
+				</router-link>
 
 				<!-- Volume letters -->
 				<div class="ad-box volume-letters">
