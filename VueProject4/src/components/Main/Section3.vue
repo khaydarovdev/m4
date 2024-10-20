@@ -4,7 +4,7 @@
 			<h1>Мы предлагаем</h1>
 			<div class="ad-grid">
 				<!-- Signboards -->
-				<router-link :to="{name: 'production'}">
+				<router-link :to="{ name: 'production' }">
 					<div class="ad-box signboards">
 						<i class="bx bxs-store"></i>
 						<div class="ad-content">
@@ -14,14 +14,16 @@
 					</div>
 				</router-link>
 
-				<!-- Volume letters -->
-				<div class="ad-box volume-letters">
-					<i class="bx bx-font"></i>
-					<div class="ad-content">
-						<h3>Объёмные буквы</h3>
-						<p>от 60 руб/см</p>
+				<router-link :to="{name: 'letters'}">
+					<!-- Volume letters -->
+					<div class="ad-box volume-letters">
+						<i class="bx bx-font"></i>
+						<div class="ad-content">
+							<h3>Объёмные буквы</h3>
+							<p>от 60 руб/см</p>
+						</div>
 					</div>
-				</div>
+				</router-link>
 
 				<!-- Flexible neon -->
 				<div class="ad-box neon">
