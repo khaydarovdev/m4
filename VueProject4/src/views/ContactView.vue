@@ -1,5 +1,5 @@
 <template>
-	<img src="../assets/Group 1017.png" alt="">
+	<img src="../assets/Group 1017.png" alt="" />
 </template>
 <script>
 export default {};
@@ -7,5 +7,6 @@ export default {};
 <style scoped>
 img {
 	width: 100%;
-	height: 100vh;
-}</style>
+	height: 80vh;
+}
+</style>
